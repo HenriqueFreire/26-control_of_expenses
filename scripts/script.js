@@ -91,7 +91,7 @@ const handleFormSubmit = event => {
     const transactionAmount = inputTransactionAmount.value.trim();
     
     if (transactionName === '' || transactionAmount === '' ) {
-        Alert('Os campos "Nome" e "Valor" devem estar preeenchidos!');
+        alert('Os campos "Nome" e "Valor" devem estar preeenchidos!');
         return
     };
 
